@@ -2,8 +2,11 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <test-ui-btn></test-ui-btn>
-    <test-ui-btn :count="2"></test-ui-btn>
-    <test-ui-btn :count="4"></test-ui-btn>
+    <test-ui-btn type="primary"></test-ui-btn>
+    <test-ui-btn type="success"></test-ui-btn>
+    <test-ui-btn type="warning"></test-ui-btn>
+    <test-ui-btn type="danger"></test-ui-btn>
+    <test-ui-btn type="info"></test-ui-btn>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the

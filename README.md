@@ -1,29 +1,27 @@
-# test-ui
+# test-ui-btn #
 
-## Project setup
-```
-npm install
-```
+测试ui库
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+[github](https://github.com/fxss5201/test-ui-btn)
 
-### Compiles and minifies for production
+[演示地址](https://fxss5201.github.io/test-ui-btn/)
+
+## 用法 ##
+
 ```
-npm run build
+npm i test-ui-btn
 ```
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
+```javascript
+import TestUiBtn from 'test-ui-btn'
+Vue.use(TestUiBtn)
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```html
+<test-ui-btn></test-ui-btn>
+<test-ui-btn type="primary"></test-ui-btn>
+<test-ui-btn type="success"></test-ui-btn>
+<test-ui-btn type="warning"></test-ui-btn>
+<test-ui-btn type="danger"></test-ui-btn>
+<test-ui-btn type="info"></test-ui-btn>
+```
