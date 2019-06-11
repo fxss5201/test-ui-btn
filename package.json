@@ -1,6 +1,6 @@
 {
   "name": "test-ui-btn",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "test-ui-btn",
   "main": "lib/test-ui-btn.umd.min.js",
   "private": false,
@@ -10,6 +10,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
     "lib": "vue-cli-service build --target lib --name test-ui-btn --dest lib packages/index.js"
   },
   "repository": {
@@ -29,7 +31,8 @@
     "eslint-plugin-vue": "^5.0.0",
     "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "vuepress": "^1.0.1"
   },
   "eslintConfig": {
     "root": true,

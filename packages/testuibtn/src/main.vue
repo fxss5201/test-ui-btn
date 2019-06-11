@@ -5,9 +5,15 @@
 <script>
 export default {
   name: 'TestUiBtn',
-  data: function () {
+  props: {
+    count: {
+      type: Number,
+      default: 0
+    }
+  },
+  data () {
     return {
-      count: 0
+      
     }
   }
 }
