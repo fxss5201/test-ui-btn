@@ -7,7 +7,7 @@
     <test-ui-btn type="warning"></test-ui-btn>
     <test-ui-btn type="danger"></test-ui-btn>
     <test-ui-btn type="info"></test-ui-btn>
-    <pre v-highlightjs><code class="html">{{code1}}</code></pre>
+    <pre v-highlightjs="code1"><code class="html"></code></pre>
   </div>
 </template>
 
