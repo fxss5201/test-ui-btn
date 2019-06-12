@@ -9,4 +9,4 @@ meta:
 
 ## 组件列表 ##
 
-1. [text-ui-btn](./testUiBtn)
+1. [text-ui-btn](./testUiBtn.md)

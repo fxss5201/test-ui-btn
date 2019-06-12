@@ -4,9 +4,10 @@ module.exports = {
   description: '测试ui库',
   markdown: {
     lineNumbers: true,
-    toc: { includeLevel: [1, 2, 3] }
+    toc: { includeLevel: [1] }
   },
   themeConfig: {
+    sidebarDepth: 0,
     repo: 'fxss5201/test-ui-btn',
     docsDir: 'docs',
     editLinks: true, 
