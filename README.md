@@ -9,7 +9,7 @@
 ## 用法 ##
 
 ```
-npm i test-ui-btn
+npm install --save-dev test-ui-btn
 ```
 
 ```javascript
