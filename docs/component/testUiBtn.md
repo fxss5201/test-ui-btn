@@ -13,6 +13,4 @@ meta:
 |----|----|----|:----|----|
 |type|类型|String|primary / success / warning / danger / info|--|
 
-<ClientOnly>
-  <test-ui-btn/>
-</ClientOnly>
+<test-ui-btn-html/>
